@@ -48,11 +48,11 @@ class Product extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Title',
-            'detail' => 'Detail',
-            'price' => 'Price',
-            'product_type_id' => 'Product Type ID',
-            'amount' => 'Amount',
+            'title' => 'ชื่อ',
+            'detail' => 'รายละเอียด',
+            'price' => 'ราคา',
+            'product_type_id' => 'ประเภทสินค้า',
+            'amount' => 'จำนวน',
         ];
     }
 
